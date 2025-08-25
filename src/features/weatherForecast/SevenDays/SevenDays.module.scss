@@ -1,0 +1,17 @@
+.title {
+  font-size: 1.25rem;
+  font-weight: 600;
+  margin-bottom: 1rem;
+}
+
+.cards {
+  display: flex;
+  gap: 1rem;
+  padding-bottom: 1rem;
+  flex-wrap: wrap;
+}
+
+.cardsItem {
+  flex: 0 1 calc(50% - 16px);
+  min-width: 250px;
+}

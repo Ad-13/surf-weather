@@ -1,0 +1,13 @@
+.card {
+  border-radius: 12px;
+  padding: 1rem;
+  background: rgba(255, 255, 255, 0.8);
+  transition: 0.2s ease-in-out;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.08);
+  color: var(--card-text-color);
+}
+
+.title {
+  color: var(--card-text-color);
+  text-align: center;
+}

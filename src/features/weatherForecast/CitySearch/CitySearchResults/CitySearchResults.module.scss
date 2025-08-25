@@ -1,0 +1,42 @@
+.resultItem {
+  appearance: none;
+  border: none;
+  border-bottom: 1px solid #c0c0c0;
+  cursor: pointer;
+  background: transparent;
+  display: block;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  text-align: left;
+  gap: 10px;
+  padding: 0.7rem;
+  transition: background 0.2s ease-in-out ;
+
+  &:hover {
+    background: rgba(255, 255, 255);
+  }
+}
+
+.resultIcon {
+  color: #0078d4;
+  flex-shrink: 0;
+  width: 20px;
+  height: 20px;
+}
+
+.resultText {
+  font-size: 1.1rem;
+}
+
+.cityName {
+  font-weight: 600;
+  margin-bottom: 0.3rem;
+  color: #333;
+}
+
+.regionName,
+.countryName {
+  color: #666;
+}

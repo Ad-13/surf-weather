@@ -1,0 +1,27 @@
+.header {
+  border-bottom: 1px solid rgba(179, 217, 230, 0.3);
+  padding: 1.5rem 0;
+}
+
+.headerContent {
+  justify-content: center;
+  display: flex;
+}
+
+.titleIcon {
+  width: 2rem;
+  height: 2rem;
+  color: var(--primary);
+  animation: wave 3s ease-in-out infinite;
+  margin-right: 0.5rem;
+}
+
+@keyframes wave {
+  0%,
+  100% {
+    transform: translateY(0px) rotate(0deg);
+  }
+  50% {
+    transform: translateY(-10px) rotate(2deg);
+  }
+}
